@@ -1,0 +1,145 @@
+@media screen and (max-width: 600px) {
+    
+    .home{
+        margin-bottom: auto;
+        max-width: 600px;
+    }
+    .home-content h1 {
+        padding: 100px;
+        padding-bottom: 0;
+        padding-left: 40px;
+        font-size: x-small;
+    }
+
+    .home-content p {
+        max-width: 600px;
+        font-size: 13px; 
+        margin-left: 5%; 
+        padding-right: 10px;
+    }
+
+    .container{
+        margin-top: 50px;
+    }
+
+    .history{
+        text-align: center;
+        flex-direction: column;
+        padding-top: 15%;
+    }
+
+    h4 {
+        font-size: 24px; 
+        text-align: center;
+        padding-right: 5%;
+    }
+
+    .container3 {
+        display: block;
+        flex-direction: column;
+    }
+
+    .contered text {
+        text-align: center;
+        align-items: center;
+    }
+
+    .container3 img{
+        max-width: 100%;
+        margin-left: 50px;
+        margin-top: 10%;
+    }
+
+    .footer{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        height: 70vh;
+    }
+    #menu-icon{
+        display: initial;
+        color: #193444;
+    }
+
+    .logo{
+        width: 130px;
+        height: auto;
+    }
+    header .navbar-about{
+        position: absolute;
+        display: flex;
+        top: -400px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f8f8f8;
+        transition: .3s;
+    }
+
+    .navbar-about.active{
+        top: 70px;
+    }
+
+    .navbar-about a{
+        padding: 1.5rem;
+        display: block;
+    }
+
+    .navbar-about  a:after{
+        left: 40%;
+        bottom: 10px;
+    }
+
+    .navbar-about a.active:after{
+        width: 20%;
+    }
+    
+    .navbar-about a:hover:after{
+        width: 20%;
+    }
+
+    .home-content h1 {
+        font-size: 36px; 
+        padding-top: 30%;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+    .home-content p {
+        font-size: 16px; 
+        margin-left: 10%; 
+        margin-top: -10px; 
+        padding-top: 5px;
+    }
+
+    .container {
+        padding-top: 150px; 
+    }
+
+    h4 {
+        margin-left: 5%; 
+        margin-top: 10px; 
+        font-size: 24px; 
+    }
+
+    .container3 {
+        margin-left: 5%; 
+        margin-right: 10px; 
+    }
+
+    .container3 p {
+        font-size: 12px; 
+    }
+
+    .container3 img {
+        width: 250px; 
+        height:200px;
+    }
+    
+}

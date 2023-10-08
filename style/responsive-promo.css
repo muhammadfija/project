@@ -1,0 +1,254 @@
+@media screen and (max-width: 900px) {
+  body{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menu-icon {
+    display: initial;
+    color: #193444;
+  }
+
+  .logo {
+    width: 130px;
+    height: auto;
+  }
+
+  .header-promo{
+    position: fixed;
+  }
+
+  header .navbar-promo {
+    position: absolute;
+    display: flex;
+    top: -400px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f8f8f8;
+    transition: .3s;
+  }
+
+  .navbar-promo.active {
+    top: 70px;
+  }
+
+  .navbar-promo a {
+    padding: 1.5rem;
+    display: block;
+  }
+
+  .navbar-promo a:after {
+    left: 40%;
+    bottom: 10px;
+  }
+
+  .navbar-promo a.active:after {
+    width: 20%;
+  }
+
+  .navbar-promo a:hover:after {
+    width: 20%;
+  }
+  /* Section Home */
+  .promo {
+    padding: 70px 10% 0;
+    height: 70vh;
+    text-align: center;
+  }
+
+  .promo-text {
+    width: 100%;
+  }
+
+  .promo-text h1 {
+    font-size: 21px;
+  }
+
+  .promo-img img {
+    max-width: 320px;
+    height: 320px;
+  }
+
+  /* Container */
+  .container {
+    padding: 20px;
+  }
+
+  .container-img img {
+    width: 60px;
+    height: auto;
+  }
+
+  .container-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  /* Promotion List */
+  .text1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .garis{
+    align-items: center;
+  }
+
+  .poster1 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text2 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .icon-text img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .tanggal {
+    font-size: 14px;
+  }
+
+  .tengah {
+    margin-top: 10px;
+  }
+
+  .tombol {
+    background-color: #193444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* Footer */
+  .footerr {
+    text-align: center;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .footer h6 {
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  body{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menu-icon {
+    display: initial;
+    color: #193444;
+  }
+
+  .logo {
+    width: 130px;
+    height: auto;
+  }
+
+  .header-promo{
+    position: fixed;
+  }
+
+  header .navbar-promo {
+    position: absolute;
+    display: flex;
+    top: -400px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f8f8f8;
+    transition: .3s;
+  }
+
+  .navbar-promo.active {
+    top: 70px;
+  }
+
+  .navbar-promo a {
+    padding: 1.5rem;
+    display: block;
+  }
+
+  .navbar-promo a:after {
+    left: 40%;
+    bottom: 10px;
+  }
+
+  .navbar-promo a.active:after {
+    width: 20%;
+  }
+
+  .navbar-promo a:hover:after {
+    width: 20%;
+  }
+  /* Section Home */
+  .promo {
+    flex-direction: column-reverse;
+    padding: 72px 13% 71px;
+    height: 70vh;
+    text-align: center;
+  }
+
+  .promo-text {
+    width: 100%;
+  }
+
+  .promo-text h1 {
+    font-size: 15px;
+  }
+
+  .promo-img img {
+    max-width: 320px;
+    height: auto;
+  }
+}
+
+  
+
+
+@media screen and (max-width: 400px) {
+  .promo {
+    flex-direction: column-reverse;
+    padding: 72px 13% 71px;
+    height: 70vh;
+    text-align: center;
+  }
+
+  .promo-text {
+    width: 100%;
+  }
+
+  .promo-text h1 {
+    font-size: 15px;
+  }
+
+  .promo-img img {
+    max-width: 100%;
+    height: auto;
+  }
+}

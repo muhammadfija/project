@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="/style/styles-program.css">
+    <link rel="stylesheet" href="/style/responsive-program.css">
+    
+    <title>EduSpace Program</title>
+</head>
+<body>
+    <div class="programs">
+    <header class="header-program">
+        <img src="/style/images/logo.png" alt="logoEdu" class="logo">
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar-program">
+            <a href="page-home.html" class="home">Home</a>
+            <a href="page-program.html" class="active">Program</a>
+            <a href="page-promo.html" class="home">Promo</a>
+            <a href="page-about.html" class="home">About Us</a>
+        </nav>
+    </header>
+
+    <section class="program">
+        <div class="content-program1">
+            <h1>Get The Best Class <br>With Us!</h1>
+            <p>Proven learning outcomes that you can see, hear, and track.</p>
+            <a href="#our-program" class="btn">More</a>
+        </div>
+        <img width="380px" src="/style/images/gambar-program1.png" alt="gambar-program1">
+    </section>
+    </div>
+
+    <section class="program-content" id="our-program">
+        <h2>Our Program</h2>
+        <div class="box">
+            <article class="box-section"  id="box-section-1">
+                <img width="200px" height="auto"  src="/style/images/gambar-liveclass.png" alt="gambar-liveclass"></a>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <button class="btn-content btn2" id="live-class">Daftar</button>
+            </article>
+            <article class="box-section"id="box-section-2">
+                <img width="200px" height="auto" src="/style/images/gambar-privateclass.png" alt="gambar-liveclass"></a>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <button class="btn-content btn-private" id="private-class">Daftar</button>
+            </article>
+            <article class="box-section"id="box-section-3">
+                <img width="200px" height="auto" src="/style/images/gambar-tryout.png" alt="gambar-liveclass"></a>
+               <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <button class="btn-content" id="try-out">Daftar</button>
+            </article>
+            <article class="box-section"id="box-section-4">
+                <img width="200px" height="auto" src="/style/images/gambar-freeclass.png" alt="gambar-liveclass"></a>
+                    <h3></h3>
+                    <p></p>
+                <button class="btn-content btn3" id="trial-class">Daftar</button>
+            </article>
+            <article class="box-section"id="box-section-5">
+                <img width="200px" height="auto" src="/style/images/gambar-qna.png" alt="gambar-liveclass"></a>
+                    <h3></h3>
+                    <p></p>
+                <button class="btn-content" id="qna">Daftar</button>
+            </article>
+        </div>
+    </section>
+    <section class="content-program2 blockquoted">
+        <img width="auto" height="400px" src="/style/images/gambar-content.png" alt="">
+        <div class="box-content">
+            <h4>Education is not the learning of facts, but the training of the mind to think!</h4>
+            <p class="strip">Albert Einstein</p>
+        </div>
+    </section>
+
+    <form id="myForm">
+        <div class="popup" id="popup-show">
+            <div class="form">
+                <div id="close-btn" class="close-btn">&times;</div>
+                <h2>Silahkan Isi Data Diri Anda</h2>
+                <div class="form-element">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required>
+                </div>
+                <div class="form-element">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan Alamat Email" required>
+                </div>
+                <div class="form-element">
+                    <label for="umur">Umur:</label>
+                    <input type="number" id="umur" name="umur" placeholder="Masukkan Umur Anda" min="5" max="28" required>
+                </div>
+                <div class="form-element">
+                    <label for="jenjang">Jenjang Sekolah:</label>
+                    <select type="jenjang" id="jenjang" name="jenjang" required>
+                        <option value="SD">SD</option>
+                        <option value="SMP">SMP</option>
+                        <option value="SMA">SMA</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <label for="kelas">Nama kelas:</label>
+                    <select type="jenjang" id="pilihProgram" name="pilihProgram" required>
+                        <option value="LiveClass">Live Class</option>
+                        <option value="PrivateClass">Private Class</option>
+                        <option value="TryOut">Try Out</option>
+                        <option value="TrialClass">Trial Class</option>
+                        <option value="Qna">QnA With EduSpace</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <label for="kode">Kode Promo:</label>
+                    <input type="text" id="kode" name="kode" placeholder="Masukkan Kode Promo (Opsional)">
+                    <button type="submit" class="btn1" id="btn1">Submit</button>
+                </div>
+                <div class="form-element">
+                    <div class="popup1" id="popup1">
+                        <img src="/style/images/ceklis.png">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been succesfully submitted.</p>
+                        <button type="button" id="ok">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <footer class="footer">
+       <div>
+        <h6>Copyright 2023|EduSpace - from Group-10</h6>
+       </div>
+    </footer>
+    <script src="script/page-program.js"></script>
+</body>
+</html>
